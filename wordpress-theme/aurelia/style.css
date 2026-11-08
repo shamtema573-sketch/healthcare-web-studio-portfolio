@@ -1,0 +1,46 @@
+/*
+Theme Name: Aurelia Concept
+Author: Healthcare Web Studio portfolio
+Description: An original, editable block-theme starter for a fictional aesthetics-clinic concept.
+Version: 0.1.0
+Requires at least: 6.6
+Requires PHP: 8.0
+Text Domain: aurelia-concept
+*/
+
+:root {
+  --au-paper: #f7f5ef;
+  --au-ink: #272821;
+  --au-muted: #68665e;
+  --au-line: #ddd8ce;
+  --au-sage: #536c58;
+  --au-clay: #a2604d;
+  --au-content: 1160px;
+}
+
+body { background: var(--au-paper); color: var(--au-ink); font-family: Arial, sans-serif; }
+a { color: inherit; text-underline-offset: .18em; }
+.wp-site-blocks { overflow: clip; }
+.au-wrap { padding-left: clamp(22px, 6vw, 96px); padding-right: clamp(22px, 6vw, 96px); }
+.au-header { min-height: 82px; border-bottom: 1px solid var(--au-line); }
+.au-brand { color: var(--au-ink); letter-spacing: .12em; text-transform: uppercase; }
+.au-hero { padding-top: clamp(80px, 12vw, 160px); padding-bottom: clamp(84px, 12vw, 150px); }
+.au-hero h1 { max-width: 900px; font-family: Georgia, serif; font-size: clamp(50px, 9vw, 112px); font-weight: 400; letter-spacing: -.055em; line-height: .96; }
+.au-kicker { color: var(--au-sage); font-size: 12px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.au-lede { max-width: 560px; color: var(--au-muted); font-size: clamp(17px, 2vw, 21px); line-height: 1.65; }
+.au-button .wp-block-button__link { min-height: 48px; border-radius: 0; background: var(--au-ink); padding: 14px 22px; }
+.au-section { padding-top: clamp(68px, 9vw, 112px); padding-bottom: clamp(68px, 9vw, 112px); border-top: 1px solid var(--au-line); }
+.au-section h2 { font-family: Georgia, serif; font-size: clamp(38px, 6vw, 68px); font-weight: 400; letter-spacing: -.04em; line-height: 1; }
+.au-service-list { border-top: 1px solid var(--au-line); }
+.au-service-list > li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 20px 0; border-bottom: 1px solid var(--au-line); }
+.au-footer { border-top: 1px solid var(--au-line); padding-top: 28px; padding-bottom: 28px; color: var(--au-muted); font-size: 13px; }
+.wp-block-navigation__responsive-container.is-menu-open { background: var(--au-paper); color: var(--au-ink); padding: 24px; }
+:focus-visible { outline: 3px solid var(--au-sage); outline-offset: 3px; }
+@media (max-width: 680px) {
+  .au-header { min-height: 68px; }
+  .au-hero h1 { max-width: 12ch; }
+  .au-service-list > li { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,337 @@
+{
+  "baseUrl": "http://127.0.0.1:4173",
+  "checkedAt": "2026-11-08T13:31:44.021Z",
+  "responsive": [
+    {
+      "site": "portfolio",
+      "targetWidth": 375,
+      "viewport": 375,
+      "content": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "portfolio",
+      "targetWidth": 390,
+      "viewport": 390,
+      "content": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "portfolio",
+      "targetWidth": 768,
+      "viewport": 768,
+      "content": 768,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "portfolio",
+      "targetWidth": 1024,
+      "viewport": 1024,
+      "content": 1024,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "portfolio",
+      "targetWidth": 1440,
+      "viewport": 1440,
+      "content": 1440,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "aurelia",
+      "targetWidth": 375,
+      "viewport": 375,
+      "content": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "aurelia",
+      "targetWidth": 390,
+      "viewport": 390,
+      "content": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "aurelia",
+      "targetWidth": 768,
+      "viewport": 768,
+      "content": 768,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "aurelia",
+      "targetWidth": 1024,
+      "viewport": 1024,
+      "content": 1024,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "aurelia",
+      "targetWidth": 1440,
+      "viewport": 1440,
+      "content": 1440,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "forma",
+      "targetWidth": 375,
+      "viewport": 375,
+      "content": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "forma",
+      "targetWidth": 390,
+      "viewport": 390,
+      "content": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "forma",
+      "targetWidth": 768,
+      "viewport": 768,
+      "content": 768,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "forma",
+      "targetWidth": 1024,
+      "viewport": 1024,
+      "content": 1024,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "forma",
+      "targetWidth": 1440,
+      "viewport": 1440,
+      "content": 1440,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "clarity",
+      "targetWidth": 375,
+      "viewport": 375,
+      "content": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "clarity",
+      "targetWidth": 390,
+      "viewport": 390,
+      "content": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "clarity",
+      "targetWidth": 768,
+      "viewport": 768,
+      "content": 768,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "clarity",
+      "targetWidth": 1024,
+      "viewport": 1024,
+      "content": 1024,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "clarity",
+      "targetWidth": 1440,
+      "viewport": 1440,
+      "content": 1440,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "movewell",
+      "targetWidth": 375,
+      "viewport": 375,
+      "content": 375,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "movewell",
+      "targetWidth": 390,
+      "viewport": 390,
+      "content": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "movewell",
+      "targetWidth": 768,
+      "viewport": 768,
+      "content": 768,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "movewell",
+      "targetWidth": 1024,
+      "viewport": 1024,
+      "content": 1024,
+      "noHorizontalOverflow": true
+    },
+    {
+      "site": "movewell",
+      "targetWidth": 1440,
+      "viewport": 1440,
+      "content": 1440,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "journeys": [
+    {
+      "name": "portfolio entry and artwork",
+      "heading": "Healthcare sites\nbuilt for real decisions.",
+      "images": 4
+    },
+    {
+      "name": "portfolio mobile navigation",
+      "open": true,
+      "closesAfterLink": true
+    },
+    {
+      "name": "aurelia entry and artwork",
+      "heading": "Процедуры,\nс ясным планом.",
+      "images": 1
+    },
+    {
+      "name": "aurelia mobile navigation",
+      "open": true,
+      "closesAfterLink": true
+    },
+    {
+      "name": "forma entry and artwork",
+      "heading": "Забота,\nв которой всё ясно.",
+      "images": 1
+    },
+    {
+      "name": "forma mobile navigation",
+      "open": true,
+      "closesAfterLink": true
+    },
+    {
+      "name": "clarity entry and artwork",
+      "heading": "Нужное\nисследование.\nБез лишнего поиска.",
+      "images": 1
+    },
+    {
+      "name": "clarity mobile navigation",
+      "open": true,
+      "closesAfterLink": true
+    },
+    {
+      "name": "movewell entry and artwork",
+      "heading": "Move well,\nat your pace.",
+      "images": 1
+    },
+    {
+      "name": "movewell mobile navigation",
+      "open": true,
+      "closesAfterLink": true
+    },
+    {
+      "name": "portfolio project links",
+      "count": 4,
+      "routes": [
+        "./sites/aurelia/index.html",
+        "./sites/forma/index.html",
+        "./sites/clarity/index.html",
+        "./sites/movewell/index.html"
+      ]
+    },
+    {
+      "name": "Aurelia shopping and booking demo",
+      "filterRows": 2,
+      "totalAfterQuantityChange": "10,400 ₽",
+      "removal": true,
+      "checkout": "local confirmation",
+      "booking": "local confirmation"
+    },
+    {
+      "name": "Forma service, profile, and booking demo",
+      "filterRows": 1,
+      "EnglishProfile": "Mira Koval",
+      "dateAndTime": true,
+      "faq": true
+    },
+    {
+      "name": "Clarity catalogue and visit plan",
+      "searchRows": 1,
+      "categoryRows": 2,
+      "selectedTests": 1,
+      "noDataSubmission": true,
+      "EnglishLocale": true
+    },
+    {
+      "name": "MoveWell service and consultation demo",
+      "filteredRows": 1,
+      "FAQ": true,
+      "RussianLocale": true,
+      "localBooking": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "assets/screenshots/portfolio-desktop.jpg",
+      "viewport": "1440px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/portfolio-mobile.jpg",
+      "viewport": "390px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/aurelia-desktop.jpg",
+      "viewport": "1440px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/aurelia-mobile.jpg",
+      "viewport": "390px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/forma-desktop.jpg",
+      "viewport": "1440px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/forma-mobile.jpg",
+      "viewport": "390px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/clarity-desktop.jpg",
+      "viewport": "1440px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/clarity-mobile.jpg",
+      "viewport": "390px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/movewell-desktop.jpg",
+      "viewport": "1440px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/movewell-mobile.jpg",
+      "viewport": "390px",
+      "fullPage": true
+    },
+    {
+      "file": "assets/screenshots/aurelia-cart-demo.jpg",
+      "viewport": "1440px",
+      "fullPage": false
+    },
+    {
+      "file": "assets/screenshots/clarity-test-detail.jpg",
+      "viewport": "1440px",
+      "fullPage": false
+    }
+  ],
+  "consoleErrors": [],
+  "failedResponses": []
+}

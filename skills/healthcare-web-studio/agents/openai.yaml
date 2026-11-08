@@ -1,0 +1,6 @@
+interface:
+  display_name: "Healthcare Web Studio"
+  short_description: "Original medical websites with careful UX and copy"
+  default_prompt: "Use $healthcare-web-studio to plan and build this healthcare website from the brief."
+policy:
+  allow_implicit_invocation: true

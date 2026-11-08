@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": { "contentSize": "760px", "wideSize": "1160px" },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "paper", "name": "Paper", "color": "#f7f5ef" },
+        { "slug": "ink", "name": "Ink", "color": "#272821" },
+        { "slug": "muted", "name": "Muted", "color": "#68665e" },
+        { "slug": "sage", "name": "Sage", "color": "#536c58" },
+        { "slug": "clay", "name": "Clay", "color": "#a2604d" }
+      ]
+    },
+    "spacing": { "units": ["px", "rem", "%", "vw"], "padding": true, "margin": true },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        { "fontFamily": "Arial, sans-serif", "name": "Sans", "slug": "sans" },
+        { "fontFamily": "Georgia, serif", "name": "Editorial Serif", "slug": "serif" }
+      ],
+      "fontSizes": [
+        { "slug": "small", "size": "0.875rem", "name": "Small" },
+        { "slug": "medium", "size": "1rem", "name": "Medium" },
+        { "slug": "large", "size": "clamp(1.5rem, 3vw, 2.25rem)", "name": "Large" }
+      ]
+    }
+  },
+  "styles": {
+    "color": { "background": "#f7f5ef", "text": "#272821" },
+    "typography": { "fontFamily": "var:preset|font-family|sans", "lineHeight": "1.5" },
+    "elements": {
+      "heading": { "typography": { "fontFamily": "var:preset|font-family|serif", "fontWeight": "400", "lineHeight": "1.05" } },
+      "link": { "color": { "text": "#272821" } }
+    },
+    "spacing": { "blockGap": "1.5rem" }
+  }
+}
