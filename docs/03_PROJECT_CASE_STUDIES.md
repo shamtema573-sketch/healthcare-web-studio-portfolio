@@ -72,3 +72,14 @@ These are self-initiated concept projects created for this portfolio. They are d
 3. Use original licensed assets and document their source.
 4. Keep the prototype interaction honest: state what works locally and what needs a real integration.
 5. Test the main visitor journeys at phone, tablet, and desktop sizes before handoff.
+
+## R09.1 case pages and video clips
+
+Each work sample now also has a short independent case page with task, design choice, functions, mobile behavior, technologies, and a direct demo link:
+
+- [Aurelia case page](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/aurelia/index.html) — [19-second interface demo](../assets/videos/aurelia-demo.mp4)
+- [Forma Dental case page](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/forma/index.html) — [19-second interface demo](../assets/videos/forma-demo.mp4)
+- [Clarity Diagnostics case page](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/clarity/index.html) — [19-second interface demo](../assets/videos/clarity-demo.mp4)
+- [MoveWell case page](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/movewell/index.html) — [19-second interface demo](../assets/videos/movewell-demo.mp4)
+
+The case videos are screen recordings of the functioning demo pages, not promotional footage or testimonials. Current desktop/mobile captures sit beside them in `assets/screenshots/` with the `r09-1-` prefix.

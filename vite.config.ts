@@ -8,7 +8,11 @@ const pages = [
   ['aurelia', resolve(root, 'sites/aurelia/index.html')],
   ['forma', resolve(root, 'sites/forma/index.html')],
   ['clarity', resolve(root, 'sites/clarity/index.html')],
-  ['movewell', resolve(root, 'sites/movewell/index.html')]
+  ['movewell', resolve(root, 'sites/movewell/index.html')],
+  ['caseAurelia', resolve(root, 'cases/aurelia/index.html')],
+  ['caseForma', resolve(root, 'cases/forma/index.html')],
+  ['caseClarity', resolve(root, 'cases/clarity/index.html')],
+  ['caseMoveWell', resolve(root, 'cases/movewell/index.html')]
 ];
 
 export default defineConfig({

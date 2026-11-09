@@ -38,3 +38,14 @@
 
 The six Russian and six international links above were fetched from their own live homepages. Extracted navigation and service details are observations. The interaction and design recommendations are analysis, not claims about the providers' internal systems.
 
+## R09.1 interaction references
+
+These additional public references informed specific patterns; their brand assets and page layouts were not copied.
+
+- [Tajmeel by Amna — agency case study](https://www.altiusdigital.co.uk/insight/tajmeel-by-amna-aesthetics-clinic-website/) — a clinician-led presentation and a booking path close to treatment information. Used as a cue for Aurelia's conversation-first imagery and short choice flow.
+- [Quest Diagnostics — prepare for a test](https://www.questdiagnostics.com/patients/get-tested/prepare) and [test directory](https://testdirectory.questdiagnostics.com/) — separate test lookup from preparation information. Used as a cue for Clarity's searchable index and explicit reminder to confirm preparation with the actual laboratory.
+- [Complete Physio](https://complete-physio.co.uk/) and [service directory](https://complete-physio.co.uk/services/?portfolioCats=5) — make treatment format and the first contact route visible. Used as a cue for MoveWell's service index and session planner.
+- [Six Ways Dental Practice](https://www.sixwaysdental.co.uk/) — clear pathways to practice information and the first visit. Used as an information-architecture cue for Forma.
+
+These are design references rather than endorsements. Their clinical claims, pricing, staff, imagery, and appointment availability are not reused as facts in the concepts.
+

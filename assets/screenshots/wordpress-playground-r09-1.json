@@ -1,0 +1,22 @@
+{
+  "revision": "R09.1",
+  "checkedAt": "2026-11-09T09:29:11.146Z",
+  "mode": "temporary local WordPress Playground server",
+  "phpVersion": "8.3 (CLI launch flag)",
+  "wordpressVersion": "7.1.4 (admin page)",
+  "theme": "Aurelia Concept",
+  "checks": {
+    "frontPageHttp200": true,
+    "renderedHeading": "Уход начинается с разговора",
+    "themeStylesheetHttp200": true,
+    "themeActiveInAdmin": true,
+    "adminHttp200": true,
+    "browserHttpErrors": 0
+  },
+  "limits": [
+    "This was a local PHP 8.3 WordPress Playground runtime, not the KD-8 Docker host.",
+    "The theme was mounted from the existing source and was active on the generated local WordPress site.",
+    "This does not verify a client host, MySQL compatibility, production content editing, or a live booking integration."
+  ],
+  "screenshot": "assets/screenshots/r09-1-wordpress-playground.jpg"
+}

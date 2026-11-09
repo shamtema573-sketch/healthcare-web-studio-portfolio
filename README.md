@@ -3,7 +3,7 @@
 **Live portfolio:** https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/  
 **Source repository:** https://github.com/shamtema573-sketch/healthcare-web-studio-portfolio
 
-Five responsive static pages: four distinct healthcare demo concepts and a portfolio page. The demos use fictional clinic names, staff, prices, and locations. Forms, booking flows, and the Aurelia basket are local demonstrations; they do not send data or process payments.
+Nine responsive static routes: a bilingual portfolio, four distinct healthcare demo concepts, and four short case pages. The demos use fictional clinic names, staff, prices, and locations. Each has its own booking interaction. Forms, booking flows, and the Aurelia basket are local demonstrations; they do not send data or process payments.
 
 ## Live demos
 
@@ -11,6 +11,15 @@ Five responsive static pages: four distinct healthcare demo concepts and a portf
 - [Forma Dental](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/sites/forma/index.html) — editorial private-dentistry concept with sample services and team profiles.
 - [Clarity Diagnostics](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/sites/clarity/index.html) — searchable sample catalog with a visit-plan interaction.
 - [MoveWell Physiotherapy](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/sites/movewell/index.html) — movement-focused service page and local consultation demo.
+
+## Case pages and videos
+
+Each concept has a short case page with task, design, functions, mobile behavior, technology, and its demo link. The case pages include silent 15–25 second recordings of the actual interfaces; see `cases/` and `assets/videos/`.
+
+- [Aurelia case](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/aurelia/index.html)
+- [Forma Dental case](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/forma/index.html)
+- [Clarity Diagnostics case](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/clarity/index.html)
+- [MoveWell case](https://healthcare-web-studio-portfolio-20261108.cocoapause1.chatgpt.site/cases/movewell/index.html)
 
 ## Stack
 
@@ -39,7 +48,7 @@ With the preview server running at http://127.0.0.1:4173:
 npm run qa
 ```
 
-The production build creates five HTML entry points in dist/. The last recorded QA run passed 25 viewport checks and 15 browser journeys with no console errors; see docs/05_TEST_REPORT.md.
+The production build creates nine HTML entry points in dist/. On 9 November 2026, the R09.1 QA run passed 54 responsive checks, six interaction journeys, four case pages, and four videos with no browser errors; see docs/05_TEST_REPORT.md and `assets/screenshots/qa-report-r09-1.json`.
 
 ## Project materials
 
@@ -49,6 +58,7 @@ The production build creates five HTML entry points in dist/. The last recorded 
 - docs/04_GITHUB_AND_DEPLOY.md — repository and hosting notes.
 - docs/08_WORDPRESS_ADAPTATION.md — status of the Aurelia WordPress starter.
 - docs/09_ASSETS_AND_LICENSES.md — asset provenance and dependency notes.
+- docs/R09.1_HANDOFF.md — current scope, decisions, QA evidence, and limits.
 - skills/healthcare-web-studio/SKILL.md — reusable review and implementation skill.
 - wordpress-theme/aurelia/ — uninstalled block-theme starter source.
 

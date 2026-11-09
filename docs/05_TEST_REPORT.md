@@ -1,11 +1,26 @@
 # Build, responsive, and interaction report
 
+## Current run — R09.1 (9 November 2026)
+
+| Check | Result |
+|---|---|
+| `npm run typecheck` | Passed |
+| `npm run build` | Passed; 9 HTML routes generated (portfolio, 4 demos, 4 case pages) |
+| Desktop/mobile browser QA | Passed against the local Vite preview at `http://127.0.0.1:4174` |
+| Responsive checks | 54 of 54; nine routes at 360, 375, 390, 768, 1024, and 1440 CSS pixels; no horizontal overflow |
+| Interactive journeys | 6 passed, including portfolio RU/EN and contact, Aurelia mobile row layout, and four different booking demos |
+| Case pages / demos | 4 case pages with working demo links; 4 screen-recording videos load and are each 15–25 seconds |
+| Browser errors / failed HTTP responses | 0 |
+| Capture images | All page images loaded; desktop/mobile captures exist for the home page and each demo |
+
+The machine-readable current report is [qa-report-r09-1.json](../assets/screenshots/qa-report-r09-1.json). Screenshots and videos are listed in [R09.1_HANDOFF.md](R09.1_HANDOFF.md). The video duration and page-image checks run against the local production build.
+
 **Date:** 8 November 2026  
 **Build target:** Vite production output in `dist/`  
 **Browser base used by automated QA:** local production preview at `http://127.0.0.1:4173`  
 **Raw report:** [qa-report.json](../assets/screenshots/qa-report.json)
 
-## Results
+## Previous baseline — 8 November 2026
 
 | Check | Result |
 |---|---|
@@ -29,7 +44,7 @@
 
 The automated QA runner is `scripts/qa.mjs`. It builds no test fixtures into the public experience. It checks the compiled site, not a production medical service.
 
-## Visual review
+## Previous visual review — 8 November 2026
 
 The desktop portfolio and phone-width Aurelia and Clarity pages were inspected from screenshots. Distinct art directions read clearly, and no horizontal spill was visible. The generated screenshot set includes desktop and mobile captures for the portfolio and each demo, plus the Aurelia cart and Clarity detail states.
 

@@ -1,0 +1,765 @@
+{
+  "revision": "R09.1",
+  "baseUrl": "http://127.0.0.1:4175",
+  "checkedAt": "2026-11-09T09:27:23.335Z",
+  "routes": [
+    {
+      "route": "/",
+      "heading": "Healthcare sites\nwith a clear next step.",
+      "images": 8
+    },
+    {
+      "route": "/sites/aurelia/index.html",
+      "heading": "Процедуры,\nс ясным планом.",
+      "images": 1
+    },
+    {
+      "route": "/sites/forma/index.html",
+      "heading": "Забота,\nв которой всё ясно.",
+      "images": 1
+    },
+    {
+      "route": "/sites/clarity/index.html",
+      "heading": "Нужное\nисследование.\nБез лишнего поиска.",
+      "images": 1
+    },
+    {
+      "route": "/sites/movewell/index.html",
+      "heading": "Move well,\nat your pace.",
+      "images": 1
+    },
+    {
+      "route": "/cases/aurelia/index.html",
+      "heading": "Aurelia\nCatalogue, duration and sample price",
+      "images": 2
+    },
+    {
+      "route": "/cases/forma/index.html",
+      "heading": "Forma Dental\nService discovery and appointment flow",
+      "images": 2
+    },
+    {
+      "route": "/cases/clarity/index.html",
+      "heading": "Clarity\nSearchable diagnostic catalogue",
+      "images": 2
+    },
+    {
+      "route": "/cases/movewell/index.html",
+      "heading": "MoveWell\nService filter and consultation demo",
+      "images": 2
+    }
+  ],
+  "responsive": [
+    {
+      "route": "/",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/sites/aurelia/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/sites/aurelia/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/sites/aurelia/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/sites/aurelia/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/sites/aurelia/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/sites/aurelia/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/sites/forma/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/sites/forma/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/sites/forma/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/sites/forma/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/sites/forma/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/sites/forma/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/sites/clarity/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/sites/clarity/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/sites/clarity/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/sites/clarity/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/sites/clarity/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/sites/clarity/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/sites/movewell/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/sites/movewell/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/sites/movewell/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/sites/movewell/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/sites/movewell/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/sites/movewell/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/cases/aurelia/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/cases/aurelia/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/cases/aurelia/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/cases/aurelia/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/cases/aurelia/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/cases/aurelia/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/cases/forma/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/cases/forma/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/cases/forma/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/cases/forma/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/cases/forma/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/cases/forma/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/cases/clarity/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/cases/clarity/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/cases/clarity/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/cases/clarity/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/cases/clarity/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/cases/clarity/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    },
+    {
+      "route": "/cases/movewell/index.html",
+      "width": 360,
+      "viewport": 360,
+      "content": 360
+    },
+    {
+      "route": "/cases/movewell/index.html",
+      "width": 375,
+      "viewport": 375,
+      "content": 375
+    },
+    {
+      "route": "/cases/movewell/index.html",
+      "width": 390,
+      "viewport": 390,
+      "content": 390
+    },
+    {
+      "route": "/cases/movewell/index.html",
+      "width": 768,
+      "viewport": 768,
+      "content": 768
+    },
+    {
+      "route": "/cases/movewell/index.html",
+      "width": 1024,
+      "viewport": 1024,
+      "content": 1024
+    },
+    {
+      "route": "/cases/movewell/index.html",
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440
+    }
+  ],
+  "journeys": [
+    {
+      "name": "Portfolio language and contact",
+      "ru": true,
+      "en": true,
+      "persistsAfterReload": true,
+      "confirmedContact": "https://github.com/shamtema573-sketch",
+      "projectInterfaceCaptures": 4
+    },
+    {
+      "name": "Aurelia mobile catalogue spacing",
+      "viewport": 390,
+      "checkedRows": 6,
+      "titleDescriptionAndMetaSeparate": true,
+      "addTargetsAtLeast44px": true
+    },
+    {
+      "name": "Aurelia treatment filter, basket, and photo-led time selection",
+      "filteredRows": 2,
+      "basketAdd": true,
+      "bookingFlow": "treatment, date, time"
+    },
+    {
+      "name": "Forma filter and visit board",
+      "filter": true,
+      "selectedClinician": "fictional profile",
+      "dateTime": true,
+      "localConfirmation": true
+    },
+    {
+      "name": "Clarity search, test plan, and collection route",
+      "search": true,
+      "details": true,
+      "selectedItems": 1,
+      "bookingFlow": "collection route and time window"
+    },
+    {
+      "name": "MoveWell filter and movement-session planner",
+      "filteredRows": 1,
+      "bookingFlow": "session, format, date, time",
+      "localConfirmation": true
+    }
+  ],
+  "caseChecks": [
+    {
+      "slug": "aurelia",
+      "requiredSections": [
+        "Task",
+        "Design",
+        "Functions",
+        "Mobile",
+        "Technology"
+      ],
+      "demoStatus": 200
+    },
+    {
+      "slug": "forma",
+      "requiredSections": [
+        "Task",
+        "Design",
+        "Functions",
+        "Mobile",
+        "Technology"
+      ],
+      "demoStatus": 200
+    },
+    {
+      "slug": "clarity",
+      "requiredSections": [
+        "Task",
+        "Design",
+        "Functions",
+        "Mobile",
+        "Technology"
+      ],
+      "demoStatus": 200
+    },
+    {
+      "slug": "movewell",
+      "requiredSections": [
+        "Task",
+        "Design",
+        "Functions",
+        "Mobile",
+        "Technology"
+      ],
+      "demoStatus": 200
+    }
+  ],
+  "media": [
+    {
+      "slug": "aurelia",
+      "src": "../../assets/videos/aurelia-demo.mp4",
+      "duration": 19.041667,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "slug": "forma",
+      "src": "../../assets/videos/forma-demo.mp4",
+      "duration": 19.041667,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "slug": "clarity",
+      "src": "../../assets/videos/clarity-demo.mp4",
+      "duration": 19.041667,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "slug": "movewell",
+      "src": "../../assets/videos/movewell-demo.mp4",
+      "duration": 19.041667,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "aureliaMobileRows": [
+    {
+      "title": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 242.6875,
+        "bottom": 266.28125,
+        "width": 243.40625,
+        "height": 23.59375
+      },
+      "description": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 272.28125,
+        "bottom": 304.8125,
+        "width": 243.40625,
+        "height": 32.53125
+      },
+      "time": {
+        "left": 64.296875,
+        "right": 114.328125,
+        "top": 318.8125,
+        "bottom": 332.8125,
+        "width": 50.03125,
+        "height": 14
+      },
+      "price": {
+        "left": 227,
+        "right": 307.703125,
+        "top": 318.8125,
+        "bottom": 332.8125,
+        "width": 80.703125,
+        "height": 14
+      },
+      "add": {
+        "left": 318.703125,
+        "right": 362.703125,
+        "top": 242.6875,
+        "bottom": 286.6875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "title": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 372.8125,
+        "bottom": 396.40625,
+        "width": 243.40625,
+        "height": 23.59375
+      },
+      "description": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 402.40625,
+        "bottom": 418.671875,
+        "width": 243.40625,
+        "height": 16.265625
+      },
+      "time": {
+        "left": 64.296875,
+        "right": 114.328125,
+        "top": 432.671875,
+        "bottom": 446.671875,
+        "width": 50.03125,
+        "height": 14
+      },
+      "price": {
+        "left": 268.390625,
+        "right": 307.703125,
+        "top": 431.671875,
+        "bottom": 447.671875,
+        "width": 39.3125,
+        "height": 16
+      },
+      "add": {
+        "left": 318.703125,
+        "right": 362.703125,
+        "top": 372.8125,
+        "bottom": 416.8125,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "title": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 486.671875,
+        "bottom": 510.265625,
+        "width": 243.40625,
+        "height": 23.59375
+      },
+      "description": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 516.265625,
+        "bottom": 548.796875,
+        "width": 243.40625,
+        "height": 32.53125
+      },
+      "time": {
+        "left": 64.296875,
+        "right": 114.328125,
+        "top": 562.796875,
+        "bottom": 576.796875,
+        "width": 50.03125,
+        "height": 14
+      },
+      "price": {
+        "left": 268.390625,
+        "right": 307.703125,
+        "top": 561.796875,
+        "bottom": 577.796875,
+        "width": 39.3125,
+        "height": 16
+      },
+      "add": {
+        "left": 318.703125,
+        "right": 362.703125,
+        "top": 486.671875,
+        "bottom": 530.671875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "title": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 616.796875,
+        "bottom": 640.390625,
+        "width": 243.40625,
+        "height": 23.59375
+      },
+      "description": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 646.390625,
+        "bottom": 678.921875,
+        "width": 243.40625,
+        "height": 32.53125
+      },
+      "time": {
+        "left": 64.296875,
+        "right": 114.328125,
+        "top": 692.921875,
+        "bottom": 706.921875,
+        "width": 50.03125,
+        "height": 14
+      },
+      "price": {
+        "left": 268.390625,
+        "right": 307.703125,
+        "top": 691.921875,
+        "bottom": 707.921875,
+        "width": 39.3125,
+        "height": 16
+      },
+      "add": {
+        "left": 318.703125,
+        "right": 362.703125,
+        "top": 616.796875,
+        "bottom": 660.796875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "title": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 746.921875,
+        "bottom": 770.515625,
+        "width": 243.40625,
+        "height": 23.59375
+      },
+      "description": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 776.515625,
+        "bottom": 792.78125,
+        "width": 243.40625,
+        "height": 16.265625
+      },
+      "time": {
+        "left": 64.296875,
+        "right": 114.328125,
+        "top": 806.78125,
+        "bottom": 820.78125,
+        "width": 50.03125,
+        "height": 14
+      },
+      "price": {
+        "left": 268.390625,
+        "right": 307.703125,
+        "top": 805.78125,
+        "bottom": 821.78125,
+        "width": 39.3125,
+        "height": 16
+      },
+      "add": {
+        "left": 318.703125,
+        "right": 362.703125,
+        "top": 746.921875,
+        "bottom": 790.921875,
+        "width": 44,
+        "height": 44
+      }
+    },
+    {
+      "title": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 860.78125,
+        "bottom": 884.375,
+        "width": 243.40625,
+        "height": 23.59375
+      },
+      "description": {
+        "left": 64.296875,
+        "right": 307.703125,
+        "top": 890.375,
+        "bottom": 922.90625,
+        "width": 243.40625,
+        "height": 32.53125
+      },
+      "time": {
+        "left": 64.296875,
+        "right": 114.328125,
+        "top": 936.90625,
+        "bottom": 950.90625,
+        "width": 50.03125,
+        "height": 14
+      },
+      "price": {
+        "left": 268.390625,
+        "right": 307.703125,
+        "top": 935.90625,
+        "bottom": 951.90625,
+        "width": 39.3125,
+        "height": 16
+      },
+      "add": {
+        "left": 318.703125,
+        "right": 362.703125,
+        "top": 860.78125,
+        "bottom": 904.78125,
+        "width": 44,
+        "height": 44
+      }
+    }
+  ],
+  "pageErrors": [],
+  "failedResponses": [],
+  "screenshots": [
+    "r09-1-portfolio-desktop.jpg",
+    "r09-1-portfolio-mobile.jpg"
+  ],
+  "result": "passed",
+  "summary": {
+    "routes": 9,
+    "responsiveChecks": 54,
+    "journeys": 6,
+    "casePages": 4,
+    "videos": 4
+  }
+}

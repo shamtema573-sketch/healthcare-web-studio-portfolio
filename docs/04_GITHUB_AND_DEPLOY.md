@@ -21,7 +21,11 @@ npm run build
 npm run preview
 ```
 
-The build emits five HTML entry points in dist/ and uses relative asset paths so nested demo routes work on static hosting. Run npm run qa with the production preview available at http://127.0.0.1:4173.
+The build emits nine HTML entry points in dist/ and uses relative asset paths so nested demo routes work on static hosting. Run `npm run qa` with the production preview available at `http://127.0.0.1:4173`.
+
+## R09.1 publication record
+
+R09.1 production-build QA passed locally on 9 November 2026; see [the current test report](05_TEST_REPORT.md) and [full handoff](R09.1_HANDOFF.md). The public GitHub commit and Sites version/deployment are recorded here after publication.
 
 ## Content boundary
 

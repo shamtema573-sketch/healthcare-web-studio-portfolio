@@ -53,3 +53,12 @@ The four demos were built to show different decisions for different healthcare b
 ## Original artwork
 
 The concept board was generated for Aurelia and kept in `assets/concepts/`. Four original, optimized WebP hero images are used by the demos. See [09_ASSETS_AND_LICENSES.md](09_ASSETS_AND_LICENSES.md) for attribution and reuse notes.
+
+## R09.1 refinements
+
+- The four booking demonstrations use different interaction structures: Aurelia is a photo-led care and time selection; Forma is a visit/practitioner board; Clarity is a route ticket for a sample collection visit; MoveWell is a session, format, and time planner.
+- Portfolio cards now pair people photography with actual screenshots from the running interfaces. Hero art uses fictional adults and practitioners; the Aurelia and Forma consultations show direct conversation without a tablet, and Clarity shows a fictional laboratory scientist.
+- Small navigation and filter actions have larger type and touch targets. Aurelia's mobile catalog keeps the name and description grouped while duration, price, and add action sit in a distinct row.
+- The independent concepts keep their different page structures and palettes. No demographic cues are used to imply a real clinician's credentials or identity.
+
+See [R09.1_HANDOFF.md](R09.1_HANDOFF.md) for QA details and media.

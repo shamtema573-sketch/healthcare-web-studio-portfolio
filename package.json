@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "qa": "node scripts/qa.mjs",
+    "qa": "node scripts/qa-r09-1.mjs",
+    "qa:legacy": "node scripts/qa.mjs",
+    "qa:wordpress": "node scripts/qa-wordpress-r09-1.mjs",
     "typecheck": "tsc -b"
   },
   "dependencies": {

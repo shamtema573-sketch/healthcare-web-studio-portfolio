@@ -1,0 +1,310 @@
+/* R09.1 refinements: larger controls, distinct concepts and project-specific booking flows. */
+
+.mobile-menu-button { width: 44px; height: 44px; min-width: 44px; min-height: 44px; }
+.language-switch select { min-height: 44px; min-width: 44px; font-size: 13px; }
+.aurelia-nav, .forma-nav, .clarity-nav, .mw-nav, .portfolio-nav { font-size: 14px; }
+.aurelia-nav a, .forma-nav a, .clarity-nav a, .mw-nav a, .portfolio-nav a {
+  display: flex; min-height: 44px; align-items: center; padding: 8px 4px;
+}
+.header-book, .forma-cta, .clarity-header-button, .mw-book {
+  min-height: 48px; padding: 11px 16px; font-size: 13px;
+}
+.category-tabs .tab, .clarity-categories button, .forma-filter button, .mw-service-filters button {
+  min-height: 44px; padding: 10px 14px; font-size: 12px;
+}
+
+/* Aurelia stays warm and editorial; its image now carries the consultation. */
+.hero-image { background-position: 58% center; }
+
+/* Forma uses a full-frame clinic photograph with a floating paper visit card. */
+.forma-hero {
+  min-height: min(760px, calc(100svh - 96px)); display: block; position: relative;
+  overflow: hidden; background: #b9b2a8;
+}
+.forma-hero-photo { position: absolute; inset: 0; min-height: 0; }
+.forma-hero-photo img { object-position: 66% center; }
+.forma-hero-photo::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(33, 31, 28, .18), transparent 54%), linear-gradient(0deg, rgba(33, 31, 28, .18), transparent 32%);
+}
+.forma-hero-photo span { z-index: 1; font-size: 10px; padding: 12px 14px; }
+.forma-hero-text {
+  position: absolute; z-index: 2; left: clamp(24px, 8vw, 118px); bottom: clamp(24px, 7vw, 88px);
+  width: min(470px, 43vw); padding: clamp(28px, 4vw, 54px); background: #f5f0e8;
+  box-shadow: 0 20px 60px rgba(26, 24, 20, .14);
+}
+.forma-hero-text h1 { font-size: clamp(44px, 5vw, 70px); margin: 18px 0; }
+.forma-hero-text > p:not(.eyebrow) { font-size: 15px; }
+
+/* Clarity reads as a diagnostic index: scientist first, catalogue panel second. */
+.clarity-hero { grid-template-columns: minmax(0, 1.06fr) minmax(420px, .94fr); background: #172c2a; color: #f1f4ef; }
+.clarity-hero-image { grid-column: 1; grid-row: 1; min-height: 650px; }
+.clarity-hero-image img { object-position: 31% center; }
+.clarity-hero-copy { grid-column: 2; grid-row: 1; padding: clamp(48px, 7vw, 98px); background: #172c2a; }
+.clarity-hero-copy h1 { font-size: clamp(48px, 5.2vw, 76px); }
+.clarity-hero-copy h1 em { color: #9bc8b8; }
+.clarity-hero-copy > p:not(.eyebrow), .clarity-hero-copy > small { color: #d0dcd6; }
+.clarity-hero-copy .clarity-search-cta { color: #f1f4ef; border-color: #94b6aa; }
+.clarity-hero-image span { font-size: 10px; padding: 12px 14px; }
+
+/* MoveWell becomes a movement journal with a wide, human-led opening image. */
+.mw-hero { display: block; min-height: 690px; position: relative; overflow: hidden; background: #28322b; }
+.mw-hero-image { position: absolute; inset: 0; min-height: 0; }
+.mw-hero-image img { object-position: 65% center; }
+.mw-hero-image::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, rgba(25, 35, 28, .9), rgba(25, 35, 28, .57) 38%, rgba(25, 35, 28, .02) 78%);
+}
+.mw-hero-image > span { z-index: 1; font-size: 10px; }
+.mw-hero-copy {
+  position: relative; z-index: 2; width: min(760px, 62%); min-height: 690px; display: flex;
+  flex-direction: column; justify-content: center; color: #f3f2e9; padding: 84px 8%;
+}
+.mw-hero-copy h1 { max-width: 8ch; font: 600 clamp(68px, 8vw, 112px)/.9 'DM Sans', sans-serif; letter-spacing: -.075em; }
+.mw-hero-copy h1 em { color: #d7ea72; font-style: normal; }
+.mw-hero-copy > p:not(.eyebrow) { color: #e0e4d9; font-size: 16px; }
+.mw-hero-copy .button-sage { background: #d7ea72; color: #20271f; font-size: 14px; }
+.mw-caption { margin-top: 38px; color: #d9e0d4; font-size: 10px; letter-spacing: .13em; }
+
+/* Each visit planner has its own structure and visual language. */
+.booking-shade {
+  position: fixed; z-index: 50; inset: 0; display: grid; place-items: center;
+  padding: 24px; background: rgba(20, 24, 21, .66); backdrop-filter: blur(4px);
+}
+.booking-shade button, .booking-shade input, .booking-shade select { font: inherit; }
+.booking-shade button:focus-visible, .booking-shade input:focus-visible { outline: 3px solid #9bc8b8; outline-offset: 3px; }
+.booking-shade fieldset { min-width: 0; border: 0; margin: 0; padding: 0; }
+.booking-shade legend { margin-bottom: 12px; font-size: 13px; font-weight: 700; }
+.booking-shade label { display: grid; gap: 8px; font-size: 12px; font-weight: 700; }
+.booking-shade input[type="date"] { width: 100%; min-height: 50px; border: 1px solid #cbc7bd; background: #fff; padding: 0 12px; color: #24251f; }
+.booking-shade button { cursor: pointer; }
+.booking-shade button:disabled { opacity: .42; cursor: not-allowed; }
+
+/* Aurelia: a warm, photo-led time-selection drawer. */
+.aurelia-booking-shade { padding: 0; place-items: stretch end; }
+.aurelia-booking-panel {
+  width: min(1100px, 100%); height: min(860px, 100dvh); align-self: center; display: grid;
+  grid-template-columns: minmax(280px, .78fr) minmax(0, 1.22fr); position: relative;
+  background: #f4f0e8; color: #292a25; box-shadow: -20px 0 80px #10120f44; overflow: auto;
+}
+.aurelia-booking-image { position: relative; min-height: 100%; background: #d7cfc0; }
+.aurelia-booking-image img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; object-position: 58% center; }
+.aurelia-booking-image span { position: absolute; left: 22px; bottom: 22px; background: #f4f0e8; padding: 11px 13px; font-size: 9px; letter-spacing: .13em; }
+.aurelia-booking-close, .forma-booking-top button, .clarity-ticket-index > button, .movewell-planner header button {
+  display: grid; place-items: center; min-width: 48px; min-height: 48px; border: 1px solid currentColor; background: transparent; color: inherit;
+}
+.aurelia-booking-close { position: absolute; z-index: 2; right: 20px; top: 20px; background: #f4f0e8; border-color: #d4cfc5; }
+.aurelia-booking-content { padding: clamp(30px, 5vw, 70px); overflow: auto; }
+.aurelia-booking-content h2 { max-width: 13ch; margin: 16px 52px 15px 0; font: 400 clamp(40px, 4.4vw, 60px)/.99 'DM Serif Display', serif; letter-spacing: -.04em; }
+.aurelia-booking-intro { max-width: 440px; margin: 0 0 27px; color: #716f67; font-size: 14px; line-height: 1.65; }
+.aurelia-service-choices button {
+  width: 100%; min-height: 54px; display: grid; grid-template-columns: 38px 1fr; gap: 10px; align-items: center;
+  border: 0; border-top: 1px solid #d6d0c5; background: transparent; color: #292a25; text-align: left; font-size: 14px;
+}
+.aurelia-service-choices button:last-child { border-bottom: 1px solid #d6d0c5; }
+.aurelia-service-choices button[aria-pressed="true"] { color: #596f58; font-weight: 700; }
+.aurelia-service-choices button span { color: #888479; font-size: 10px; letter-spacing: .1em; }
+.aurelia-date-time { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 18px; margin-top: 25px; }
+.aurelia-date-time > div > span { display: block; margin-bottom: 8px; font-size: 12px; font-weight: 700; }
+.aurelia-time-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+.aurelia-time-choices button { min-height: 44px; border: 1px solid #d6d0c5; background: transparent; color: #292a25; font-size: 12px; }
+.aurelia-time-choices button[aria-pressed="true"] { border-color: #536c58; background: #536c58; color: white; }
+.aurelia-booking-footer { display: flex; justify-content: space-between; align-items: center; gap: 15px; margin-top: 25px; }
+.aurelia-booking-footer small { max-width: 180px; color: #77746c; font-size: 10px; line-height: 1.5; }
+.aurelia-booking-footer .button, .aurelia-booking-success .button { min-height: 52px; font-size: 12px; }
+.aurelia-booking-success { padding-top: 16px; }
+.aurelia-booking-success > svg { width: 40px; height: 40px; padding: 9px; border: 1px solid #a3b29d; border-radius: 50%; color: #536c58; }
+.aurelia-booking-success p { font: 24px/1.3 'DM Serif Display', serif; }
+.aurelia-booking-success small { display: block; margin: 12px 0 26px; color: #77746c; }
+
+/* Forma: a dental visit board with care choice, clinician profile and schedule lane. */
+.forma-booking-shade { background: rgba(41, 30, 25, .72); }
+.forma-booking-board { width: min(1060px, 100%); max-height: calc(100dvh - 48px); overflow: auto; background: #f8f3eb; color: #292721; box-shadow: 0 24px 90px #17130f55; }
+.forma-booking-top { min-height: 86px; display: grid; grid-template-columns: 52px 1fr 52px; align-items: center; gap: 17px; padding: 12px 28px; border-bottom: 1px solid #d8d0c5; }
+.forma-booking-mark { font: 50px/.8 'Playfair Display', serif; color: #a05e4a; }
+.forma-booking-top span { font-size: 13px; letter-spacing: .12em; }
+.forma-booking-top p { margin: 6px 0 0; color: #8a7a6e; font-size: 9px; letter-spacing: .16em; }
+.forma-booking-columns { display: grid; grid-template-columns: minmax(0, 1.18fr) minmax(300px, .82fr); }
+.forma-booking-main { padding: clamp(28px, 5vw, 58px); }
+.forma-booking-main h2 { margin: 0 0 9px; font: 500 clamp(38px, 4.5vw, 58px)/1 'Playfair Display', serif; letter-spacing: -.04em; }
+.forma-booking-main > p { margin: 0 0 30px; color: #746d64; font-size: 13px; line-height: 1.6; }
+.forma-visit-types button { width: 100%; min-height: 57px; display: grid; grid-template-columns: 40px 1fr 22px; align-items: center; gap: 10px; padding: 9px 0; text-align: left; border: 0; border-top: 1px solid #ddd5ca; background: transparent; color: #332f29; }
+.forma-visit-types button:last-child { border-bottom: 1px solid #ddd5ca; }
+.forma-visit-types button span { color: #a05e4a; font: 14px 'Playfair Display', serif; }
+.forma-visit-types button strong { font-size: 13px; font-weight: 600; }
+.forma-visit-types button[aria-pressed="true"] strong { color: #9a5543; }
+.forma-practitioner-types { margin-top: 25px !important; }
+.forma-practitioner-types > div { display: none; }
+.forma-practitioner-types button { min-width: 0; min-height: 90px; display: flex; align-items: center; gap: 9px; padding: 10px 8px; border: 1px solid #d8d0c5; background: transparent; color: #302d27; text-align: left; font-size: 11px; }
+.forma-practitioner-types button[aria-pressed="true"] { border-color: #a05e4a; background: #eee3d6; }
+.forma-practitioner-types button > span:last-child small { display: block; margin-top: 5px; color: #7b746b; font-size: 9px; }
+.forma-initials { width: 34px; height: 34px; display: grid; place-items: center; flex: none; background: #d7c1ad; color: #633f33; border-radius: 50%; font-size: 10px; }
+.forma-booking-time { padding: clamp(28px, 4vw, 48px); background: #743f33; color: #f7f0e8; display: flex; flex-direction: column; gap: 18px; }
+.forma-booking-time .eyebrow { color: #e4c9b7; }
+.forma-booking-time input { border-color: #b9917f !important; }
+.forma-booking-slots { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.forma-booking-slots button { min-height: 48px; border: 1px solid #b9917f; background: transparent; color: #f7f0e8; }
+.forma-booking-slots button[aria-pressed="true"] { background: #f4e9dc; color: #743f33; }
+.forma-booking-time > p { margin: auto 0 0; color: #ead8cb; font-size: 10px; line-height: 1.6; }
+.forma-booking-submit { min-height: 54px; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 0 17px; border: 0; background: #f4e9dc; color: #59382f; font-size: 13px; font-weight: 700; }
+.forma-booking-confirmation { margin-top: 24px; padding: 22px; background: #eee3d6; color: #603e33; }
+.forma-booking-confirmation > span { font-size: 28px; }
+
+/* Clarity: a collection-route ticket, not a generic appointment form. */
+.clarity-booking-shade { background: rgba(12, 30, 29, .74); }
+.clarity-booking-ticket { width: min(1000px, 100%); max-height: calc(100dvh - 48px); display: grid; grid-template-columns: 270px minmax(0, 1fr); background: #f0f5f2; color: #19322f; box-shadow: 0 22px 85px #07141488; overflow: auto; }
+.clarity-ticket-index { position: relative; padding: 34px 28px; background: #193a36; color: #f1f6f2; display: flex; flex-direction: column; }
+.clarity-ticket-index > button { align-self: flex-end; margin: -12px -8px 54px 0; }
+.clarity-ticket-index > span { color: #a7c6ba; font-size: 10px; letter-spacing: .17em; }
+.clarity-ticket-index h2 { margin: 16px 0; font: 600 36px/.9 'DM Sans', sans-serif; letter-spacing: -.08em; }
+.clarity-ticket-index p { margin-top: auto; padding-top: 26px; border-top: 1px solid #47706a; font-size: 11px; line-height: 1.5; }
+.clarity-ticket-index p strong { float: right; font-size: 18px; }
+.clarity-ticket-status { align-self: flex-start; padding: 8px 10px; border: 1px solid #84a99d; color: #cfe5da; font-size: 9px; letter-spacing: .12em; }
+.clarity-ticket-main { padding: clamp(26px, 5vw, 58px); }
+.clarity-ticket-main h2 { margin: 13px 0; font: 500 clamp(40px, 5vw, 64px)/.98 'DM Sans', sans-serif; letter-spacing: -.07em; }
+.clarity-ticket-main > p:not(.eyebrow) { max-width: 510px; color: #59716b; font-size: 13px; line-height: 1.6; }
+.clarity-route-choices { margin-top: 29px !important; }
+.clarity-route-choices button { width: 100%; min-height: 68px; display: grid; grid-template-columns: 26px 1fr 20px; align-items: center; gap: 12px; text-align: left; border: 0; border-top: 1px solid #c8d9d2; background: transparent; color: #193a36; }
+.clarity-route-choices button:last-child { border-bottom: 1px solid #c8d9d2; }
+.route-dot { width: 16px; height: 16px; border: 1px solid #72968a; border-radius: 50%; }
+.clarity-route-choices button[aria-pressed="true"] .route-dot { border: 5px solid #397e6a; }
+.clarity-route-choices button > span:nth-child(2) { font-size: 13px; font-weight: 700; }
+.clarity-route-choices small { display: block; margin-top: 4px; color: #748a83; font-size: 10px; font-weight: 400; }
+.clarity-route-choices button > svg { opacity: 0; color: #397e6a; }
+.clarity-route-choices button[aria-pressed="true"] > svg { opacity: 1; }
+.clarity-ticket-datetime { display: grid; grid-template-columns: .85fr 1.15fr; gap: 16px; margin-top: 24px; }
+.clarity-ticket-datetime > div > span { display: block; margin-bottom: 8px; font-size: 12px; font-weight: 700; }
+.clarity-ticket-datetime > div > div { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.clarity-ticket-datetime button { min-height: 46px; border: 1px solid #c8d9d2; background: transparent; color: #193a36; font-size: 11px; }
+.clarity-ticket-datetime button[aria-pressed="true"] { background: #397e6a; color: white; border-color: #397e6a; }
+.clarity-ticket-note { margin: 20px 0; color: #697e77; font-size: 10px; line-height: 1.55; }
+.clarity-ticket-submit, .clarity-ticket-success button { width: 100%; min-height: 54px; display: flex; justify-content: space-between; align-items: center; padding: 0 17px; border: 0; background: #193a36; color: #fff; font-size: 13px; font-weight: 700; }
+.clarity-ticket-success > svg { width: 42px; height: 42px; padding: 9px; border: 1px solid #78a394; border-radius: 50%; }
+.clarity-ticket-success p { color: #59716b; line-height: 1.65; }
+
+/* MoveWell: a session planner with movement, format and availability steps. */
+.movewell-booking-shade { background: rgba(23, 31, 25, .78); }
+.movewell-planner { width: min(1100px, 100%); max-height: calc(100dvh - 48px); display: grid; grid-template-columns: minmax(280px, .82fr) minmax(0, 1.18fr); background: #eef1e6; color: #202920; overflow: auto; box-shadow: 0 22px 85px #111a12aa; }
+.movewell-planner-photo { min-height: 650px; position: relative; background: #73816f; }
+.movewell-planner-photo img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: cover; object-position: 65% center; }
+.movewell-planner-photo span { position: absolute; left: 18px; bottom: 18px; padding: 10px 12px; background: #eef1e6; font-size: 9px; letter-spacing: .12em; }
+.movewell-planner-main { padding: clamp(25px, 4.5vw, 56px); }
+.movewell-planner-main header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.movewell-planner-main header .eyebrow { color: #667961; }
+.movewell-planner-main h2 { max-width: 12ch; margin: 22px 56px 12px 0; font: 600 clamp(42px, 4.5vw, 62px)/.92 'DM Sans', sans-serif; letter-spacing: -.075em; }
+.movewell-planner-intro { margin: 0 0 25px; color: #677166; font-size: 13px; line-height: 1.6; }
+.move-session-options button { width: 100%; min-height: 48px; display: grid; grid-template-columns: 39px 1fr; align-items: center; gap: 9px; border: 0; border-top: 1px solid #cbd2c4; background: transparent; text-align: left; color: #253127; font-size: 13px; }
+.move-session-options button:last-child { border-bottom: 1px solid #cbd2c4; }
+.move-session-options button span { color: #778773; font-size: 10px; }
+.move-session-options button[aria-pressed="true"] { color: #436143; font-weight: 700; }
+.move-format-options { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px !important; }
+.move-format-options legend { width: 100%; }
+.move-format-options button { min-height: 44px; padding: 0 13px; border: 1px solid #bcc7b5; background: transparent; color: #374337; font-size: 11px; }
+.move-format-options button[aria-pressed="true"] { background: #d9e7a8; border-color: #91a76c; }
+.move-date-time { display: grid; grid-template-columns: .9fr 1.1fr; gap: 14px; margin-top: 20px; }
+.move-date-time > div > span { display: block; margin-bottom: 8px; font-size: 12px; font-weight: 700; }
+.move-date-time > div > div { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.move-date-time button { min-height: 43px; border: 1px solid #bcc7b5; background: transparent; color: #374337; font-size: 11px; }
+.move-date-time button[aria-pressed="true"] { background: #536c58; color: white; border-color: #536c58; }
+.move-planner-submit, .move-planner-success button { width: 100%; min-height: 54px; display: flex; justify-content: space-between; align-items: center; margin-top: 22px; padding: 0 17px; border: 0; background: #28352b; color: #f4f1e5; font-size: 13px; font-weight: 700; }
+.move-planner-success > svg { color: #536c58; width: 42px; height: 42px; padding: 9px; border: 1px solid #a6b79d; border-radius: 50%; }
+.move-planner-success p { color: #667166; line-height: 1.6; }
+
+@media (max-width: 900px) {
+  .clarity-hero { grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr); }
+  .clarity-hero-image { min-height: 590px; }
+  .clarity-hero-copy { padding: 44px; }
+  .forma-hero-text { width: min(470px, 52vw); }
+  .aurelia-booking-panel { grid-template-columns: minmax(230px, .65fr) minmax(0, 1.35fr); }
+  .aurelia-booking-content { padding: 34px; }
+  .forma-booking-columns { grid-template-columns: minmax(0, 1fr) minmax(260px, .8fr); }
+}
+
+@media (max-width: 760px) {
+  .aurelia-nav, .forma-nav, .clarity-nav, .mw-nav, .portfolio-nav { font-size: 16px; }
+  .aurelia-nav a, .forma-nav a, .clarity-nav a, .mw-nav a, .portfolio-nav a { min-height: 52px; padding: 12px 2px; }
+  .aurelia-nav, .forma-nav, .clarity-nav, .mw-nav { padding-top: 14px; padding-bottom: 22px; }
+  .category-tabs .tab, .clarity-categories button, .forma-filter button, .mw-service-filters button { min-height: 48px; font-size: 13px; padding: 11px 14px; }
+
+  .forma-hero { min-height: 690px; }
+  .forma-hero-photo img { object-position: 69% center; }
+  .forma-hero-text { left: 16px; right: 16px; bottom: 20px; width: auto; padding: 25px; }
+  .forma-hero-text h1 { font-size: clamp(42px, 11vw, 52px); }
+
+  .clarity-hero { display: flex; flex-direction: column-reverse; }
+  .clarity-hero-image { min-height: 340px; }
+  .clarity-hero-image img { object-position: 35% 40%; }
+  .clarity-hero-copy { padding: 42px 7%; }
+
+  .mw-hero { display: grid; grid-template-columns: 1fr; min-height: 0; background: #28322b; }
+  .mw-hero-image { position: relative; min-height: 340px; grid-row: 1; }
+  .mw-hero-image img { object-position: 65% 45%; }
+  .mw-hero-image::after { background: linear-gradient(0deg, rgba(25,35,28,.06), transparent 45%); }
+  .mw-hero-copy { width: 100%; min-height: 0; grid-row: 2; padding: 36px 7% 44px; }
+  .mw-hero-copy h1 { max-width: 9ch; font-size: clamp(58px, 15vw, 76px); margin: 18px 0; }
+  .mw-hero-copy > p:not(.eyebrow) { font-size: 14px; }
+  .mw-caption { margin-top: 24px; }
+
+  .booking-shade { padding: 10px; }
+  .aurelia-booking-shade { padding: 0; }
+  .aurelia-booking-panel { width: 100%; height: 100dvh; max-height: 100dvh; align-self: stretch; grid-template-columns: 1fr; grid-template-rows: 190px 1fr; }
+  .aurelia-booking-image { min-height: 190px; }
+  .aurelia-booking-image img { object-position: 62% 42%; }
+  .aurelia-booking-image span { left: 17px; bottom: 14px; font-size: 8px; }
+  .aurelia-booking-content { padding: 26px 22px 30px; overflow: auto; }
+  .aurelia-booking-content h2 { font-size: 40px; margin-right: 35px; }
+  .aurelia-booking-intro { font-size: 12px; margin-bottom: 18px; }
+  .aurelia-service-choices button { min-height: 48px; font-size: 12px; }
+  .aurelia-date-time { grid-template-columns: 1fr; gap: 14px; margin-top: 19px; }
+  .aurelia-booking-footer { align-items: stretch; flex-direction: column; }
+  .aurelia-booking-footer small { max-width: none; }
+  .forma-booking-shade { padding: 0; }
+  .forma-booking-board { width: 100%; max-height: 100dvh; height: 100dvh; }
+  .forma-booking-top { min-height: 68px; padding: 9px 18px; grid-template-columns: 39px 1fr 48px; }
+  .forma-booking-mark { font-size: 42px; }
+  .forma-booking-top span { font-size: 10px; }
+  .forma-booking-top p { font-size: 8px; }
+  .forma-booking-columns { grid-template-columns: 1fr; }
+  .forma-booking-main { padding: 27px 22px; }
+  .forma-booking-main h2 { font-size: 42px; }
+  .forma-booking-main > p { margin-bottom: 20px; }
+  .forma-practitioner-types { display: flex; gap: 7px; overflow-x: auto; padding-bottom: 5px !important; }
+  .forma-practitioner-types legend { flex-basis: 100%; }
+  .forma-practitioner-types button { min-width: 150px; min-height: 68px; }
+  .forma-booking-time { padding: 24px 22px; gap: 12px; }
+  .forma-booking-slots { grid-template-columns: repeat(4, 1fr); }
+  .forma-booking-slots button { min-height: 44px; font-size: 11px; }
+  .forma-booking-time > p { margin: 0; }
+
+  .clarity-booking-shade { padding: 0; }
+  .clarity-booking-ticket { width: 100%; height: 100dvh; max-height: 100dvh; grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .clarity-ticket-index { padding: 17px 22px; min-height: 130px; display: grid; grid-template-columns: 1fr auto; align-items: center; }
+  .clarity-ticket-index > button { grid-column: 2; grid-row: 1; margin: 0; }
+  .clarity-ticket-index > span { grid-column: 1; grid-row: 1; }
+  .clarity-ticket-index h2 { grid-column: 1; grid-row: 2; font-size: 24px; margin: 8px 0; }
+  .clarity-ticket-index p { grid-column: 2; grid-row: 2; margin: 0; padding: 0; border: 0; text-align: right; }
+  .clarity-ticket-index p strong { display: block; float: none; }
+  .clarity-ticket-status { grid-column: 1/-1; grid-row: 3; padding: 5px 8px; }
+  .clarity-ticket-main { padding: 25px 22px; overflow: auto; }
+  .clarity-ticket-main h2 { font-size: 44px; }
+  .clarity-ticket-datetime { grid-template-columns: 1fr; gap: 14px; margin-top: 19px; }
+  .clarity-ticket-datetime > div > div { grid-template-columns: repeat(3, 1fr); }
+  .movewell-booking-shade { padding: 0; }
+  .movewell-planner { width: 100%; height: 100dvh; max-height: 100dvh; grid-template-columns: 1fr; grid-template-rows: 190px 1fr; }
+  .movewell-planner-photo { min-height: 190px; }
+  .movewell-planner-photo img { object-position: 66% 42%; }
+  .movewell-planner-photo span { left: 14px; bottom: 13px; font-size: 8px; }
+  .movewell-planner-main { padding: 21px 22px 28px; overflow: auto; }
+  .movewell-planner-main h2 { max-width: 10ch; margin: 12px 48px 9px 0; font-size: 40px; }
+  .movewell-planner-intro { font-size: 11px; margin-bottom: 15px; }
+  .move-session-options button { min-height: 42px; font-size: 12px; }
+  .move-format-options { margin-top: 12px !important; }
+  .move-date-time { grid-template-columns: 1fr; gap: 11px; margin-top: 13px; }
+  .move-date-time > div > div { grid-template-columns: repeat(4, 1fr); }
+  .move-date-time button { min-height: 40px; font-size: 10px; }
+  .move-planner-submit, .move-planner-success button { min-height: 48px; margin-top: 14px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .forma-hero *, .booking-shade *, .mw-hero * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

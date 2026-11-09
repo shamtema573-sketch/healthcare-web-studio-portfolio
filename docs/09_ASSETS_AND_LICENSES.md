@@ -40,3 +40,16 @@ The URLs in [01_REFERENCE_RESEARCH.md](01_REFERENCE_RESEARCH.md) were inspected 
 ## Secrets and external requests
 
 The demo forms are local only. They send no personal or medical information. No analytics, remote API, CRM, payment, email, SMS, or appointment integration is included. Do not commit access tokens, `.env` values, or real patient data.
+
+## R09.1 people photography and evidence
+
+The following original AI-generated concept images were created for this portfolio. They depict fictional adults and practitioners, not staff or patients at real clinics. For the Russian-language concepts, the owner requested natural European/Central European casting. This is a visual direction only; it does not claim a real person's ethnicity, qualifications, or clinic affiliation.
+
+| Raw generated source | Optimized site asset | Scene |
+|---|---|---|
+| `assets/images/generated/r09-1-aurelia-consultation-v2.png` | `public/assets/images/r09-1-aurelia-consultation-v2.jpg` | Face-to-face conversation in a skin-care studio; no tablet |
+| `assets/images/generated/r09-1-forma-consultation-v2.png` | `public/assets/images/r09-1-forma-consultation-v2.jpg` | Dentist and adult client talking directly; no tablet or treatment |
+| `assets/images/generated/r09-1-clarity-lab-v2.png` | `public/assets/images/r09-1-clarity-lab-v2.jpg` | Fictional scientist working at laboratory equipment |
+| `assets/images/generated/r09-1-movewell-session.png` | `public/assets/images/r09-1-movewell-session.jpg` | Fictional physiotherapist guiding a balance exercise |
+
+Earlier image variants are retained alongside the final versions to preserve the design history. The case videos (`assets/videos/*-demo.mp4`) were recorded from the running website pages with Playwright and encoded as silent H.264 clips; each is 15–25 seconds. Current desktop and mobile proof captures are in `assets/screenshots/r09-1-*.jpg`. They are original QA evidence, not stock photography.

@@ -2,7 +2,15 @@
 
 ## Current deliverable
 
-`../wordpress-theme/aurelia/` is a starter WordPress block theme with native blocks, a front-page template, header/footer parts, and one reusable service-catalog pattern. It is source only. It has **not** been installed or tested in a WordPress instance, and its sample list is not connected to a product, booking, or payment service.
+`../wordpress-theme/aurelia/` is a starter WordPress block theme with native blocks, a front-page template, header/footer parts, and one reusable service-catalog pattern. The local R09.1 installation test is described below. Its sample list is not connected to a product, booking, or payment service.
+
+### R09.1 local installation check — 9 November 2026
+
+The starter was mounted into a temporary local WordPress Playground using its CLI. The `Aurelia Concept` theme became active; the front page rendered a heading and returned HTTP 200; the theme stylesheet returned HTTP 200; and the WordPress theme-admin screen returned HTTP 200. The browser recorded no failed HTTP responses. Evidence is in [wordpress-playground-r09-1.json](../assets/screenshots/wordpress-playground-r09-1.json) and [the screenshot](../assets/screenshots/r09-1-wordpress-playground.jpg).
+
+**What this proves:** the current theme source can be recognized, activated, and rendered in a local WordPress 7.1.4 / PHP 8.3 Playground session.
+
+**What it does not prove:** installation on KD-8, a client host, or a production WordPress/MySQL stack; editor coverage for every block; persistence after the temporary Playground ends; or a live booking, CRM, product, or payment integration. An SSH attempt to the user-designated KD-8 alias was rejected with `Permission denied (publickey)`, so no server-side Docker test ran. No credential material was inspected.
 
 ## Recommended production structure
 
